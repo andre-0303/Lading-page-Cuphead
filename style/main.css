@@ -61,3 +61,13 @@ main{
     cursor: pointer;
     background: var(--yellow);
 }
+
+#trailer{
+    transition: all 0.4s;
+}
+
+#trailer:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
